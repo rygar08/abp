@@ -189,7 +189,8 @@ The startup template uses [EF Core Code First Migrations](https://docs.microsoft
 
 ![Open Package Manager Console](images/bookstore-open-package-manager-console.png)
 
-Select the `Acme.BookStore.EntityFrameworkCore.DbMigrations` as the **default project** and execute the following command:
+In the solution select `Acme.BookStore.HttpApi.Host` and set as startup project
+In the Package Manger Console select the `Acme.BookStore.EntityFrameworkCore.DbMigrations` as the **default project** and execute the following command:
 
 ```bash
 Add-Migration "Created_Book_Entity"
