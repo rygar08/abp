@@ -189,7 +189,7 @@ In this case, we haven't created a model class, but created an anonymous object 
 
 ### PascalCase vs camelCase
 
-PascalCase property names (like `UserName`) is used as camelCase (like `userName`) in the templates.
+PascalCase property names (like UserName) is used as snake_case (like user_name) in the templates.
 
 ## Localization
 
